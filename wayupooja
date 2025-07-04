@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Temple Pooja Platform</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #fff8ef;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .hero {
+      background: linear-gradient(to bottom, #f8e2c4, #fff8ef);
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .hero img {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+    .hero h1 {
+      color: #8b3a00;
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+    .icons-section {
+      background-color: #fff4dc;
+      padding: 20px;
+      text-align: center;
+    }
+    .icons-section .icon-box {
+      padding: 15px;
+      border-radius: 10px;
+    }
+    .icons-section i {
+      font-size: 30px;
+      color: #bf6516;
+      margin-bottom: 10px;
+    }
+    .temple-buttons {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .temple-buttons .btn {
+      background-color: #d97d0d;
+      color: white;
+      margin: 5px;
+      padding: 10px 20px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <img src="https://i.imgur.com/yYKHv0U.png" alt="Lord Shiva" />
+    <h1>India's 1st platform that connects devotees directly to the temple — for Pooja and Donation, with complete trust and tradition!</h1>
+  </div>
+
+  <div class="icons-section container">
+    <div class="row text-center">
+      <div class="col-md-3 col-6 icon-box">
+        <i class="bi bi-building"></i>
+        <p><strong>Direct Connection</strong><br>to the Temple</p>
+      </div>
+      <div class="col-md-3 col-6 icon-box">
+        <i class="bi bi-flower3"></i>
+        <p><strong>Authentic</strong><br>Vedic Rituals</p>
+      </div>
+      <div class="col-md-3 col-6 icon-box">
+        <i class="bi bi-file-earmark-text"></i>
+        <p><strong>Full</strong><br>Transparency</p>
+      </div>
+      <div class="col-md-3 col-6 icon-box">
+        <i class="bi bi-camera-video"></i>
+        <p><strong>Photo/Video</strong><br>Proof of Pooja</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Bootstrap JS icons and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
